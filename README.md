@@ -6,7 +6,9 @@ A user-friendly extension to manage your [Pocket](https://getpocket.com) bookmar
 <p align="center"><img src=".github/screenshot.png" alt="Screenshot"></p>
 <br>
 
-You can download it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/in-your-pocket).
+<br>
+<p align="center"><a href="https://chrome.google.com/webstore/detail/pocketer" target="_blank"><img src=".github/install.png" alt="Screenshot"></a></p>
+<br>
 
 ### Development
 
