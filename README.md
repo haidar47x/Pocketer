@@ -17,3 +17,7 @@ You need to [download](https://nodejs.org) and install `npm` on your machine. Cl
 * `npm run clean`: Wipes out the output folder.
 * `npm run build`: Wipes out the existing packed source code and re-build.
 * `npm run pack`: Creates a clean build and zips it.
+
+### License
+
+[MIT](./LICENSE)
