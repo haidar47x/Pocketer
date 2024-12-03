@@ -1,15 +1,13 @@
 {
-  "manifest_version": 2,
-
-  "name": "In Your Pocket",
-  "description": "Add, view and manage your Pocket items from Chrome.",
-  "version": "0.1.1",
-
-  "browser_action": {
+  "manifest_version": 3,
+  "name": "Pocketer",
+  "description": "A user-friendly Pocket client to easily manage bookmarks inside Google Chrome.",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/haidar47x/pocketer",
+  "action": {
     "default_icon": "./assets/logo/logo@32.png",
     "default_popup": "popup.html"
   },
-
   "icons" : {
     "16": "./assets/logo/logo@16.png",
     "32": "./assets/logo/logo@32.png",
@@ -18,25 +16,21 @@
     "256": "./assets/logo/logo@256.png",
     "512": "./assets/logo/logo@512.png"
   },
-
   "content_scripts": [
-      {
-          "matches": ["http://*/*", "https://*/*"],
-          "js": ["js/vendor.js", "js/content_script.js"]
-      }
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/vendor.js"]
+    }
   ],
-
   "background": {
-    "scripts": ["js/vendor.js", "js/background.js"],
-    "persistent": false
+    "service_worker": "js/background.js"
   },
-
   "permissions": [
     "storage",
     "tabs",
     "activeTab",
     "identity",
-    "contextMenus",
-    "<all_urls>"
-  ]
+    "contextMenus"
+  ],
+  "host_permissions": ["<all_urls>"]
 }

@@ -17,7 +17,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   }
 
   const mediaType = ['video', 'image', 'audio']
-  let url, title
+  let url: string, title: string
 
   if (info.mediaType) {
     if (mediaType.indexOf(info.mediaType.toLowerCase()) > -1) {

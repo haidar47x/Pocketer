@@ -1,25 +1,21 @@
 {
-  "name": "in-your-pocket",
-  "version": "0.1.0",
-  "description": "",
+  "name": "pocketer",
+  "version": "0.2.0",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
-    "build": "webpack --config webpack/webpack.prod.js",
+    "build": "npm run clean && webpack --config webpack/webpack.prod.js",
     "clean": "rimraf dist",
-    "build:clean": "npm run clean && npm run build",
     "test": "npx jest",
-    "pack": "npm run build:clean && bestzip dist.zip dist/*"
+    "pack": "npm run build && bestzip dist.zip dist/*"
   },
-  "author": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/exzish/in-your-pocket"
+    "url": "https://github.com/haidar47x/pocketer"
   },
   "dependencies": {
     "jquery": "^3.5.1"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.0",
     "@types/chrome": "0.0.100",
     "@types/jquery": "^3.5.1",
     "bestzip": "^2.1.7",
