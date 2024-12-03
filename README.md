@@ -12,11 +12,11 @@ You can download it from [Chrome Web Store](https://chrome.google.com/webstore/d
 
 You need to [download](https://nodejs.org) and install `npm` on your machine. Clone the repository and install the dependencies using `npm install`.
 
-* `npm run watch`: Packs the source using development config and runs webpack in watch mode.
-* `npm run build`: Packs the source using production config.
-* `npm run clean`: Wipes out the output folder.
-* `npm run build`: Wipes out the existing packed source code and re-build.
-* `npm run pack`: Creates a clean build and zips it.
+* `npm run watch`: Runs the extension in development mode 
+* `npm run build`: Creates a production build
+* `npm run clean`: Wipes out the distribution folder
+* `npm run build`: Perform a clean build
+* `npm run pack`: Builds and compresses the archive into a ZIP
 
 ### License
 
