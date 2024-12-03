@@ -28,7 +28,6 @@
   "permissions": [
     "storage",
     "tabs",
-    "activeTab",
     "identity",
     "contextMenus"
   ],
