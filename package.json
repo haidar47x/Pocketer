@@ -1,6 +1,6 @@
 {
   "name": "pocketer",
-  "version": "0.2.0",
+  "version": "1.1.2",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
     "build": "npm run clean && webpack --config webpack/webpack.prod.js",
