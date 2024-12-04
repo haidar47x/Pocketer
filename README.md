@@ -7,7 +7,7 @@ A user-friendly extension to manage your [Pocket](https://getpocket.com) bookmar
 <br>
 
 <br>
-<p align="center"><a href="https://chrome.google.com/webstore/detail/pocketer" target="_blank"><img src=".github/install.png" alt="Screenshot"></a></p>
+<p align="center"><a href="https://chromewebstore.google.com/detail/Pocketer/gkamgpflmkdbicikhmbdadddfmgeiill" target="_blank"><img src=".github/install.png" alt="Screenshot"></a></p>
 <br>
 
 ### Development
