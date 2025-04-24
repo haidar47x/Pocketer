@@ -12,7 +12,7 @@ A user-friendly extension to manage your [Pocket](https://getpocket.com) bookmar
 
 ### Development
 
-1. Have `Node.js` and `NPM` installed 
+1. Have `Node.js` and `NPM` installed
 2. Clone the repository
 3. Install the dependencies with `npm i`
 4. Start a development build `npm run watch`
@@ -20,7 +20,7 @@ A user-friendly extension to manage your [Pocket](https://getpocket.com) bookmar
 
 #### Commands
 
-* `npm run watch`: Runs the extension in development mode 
+* `npm run watch`: Runs the extension in development mode
 * `npm run build`: Creates a production build
 * `npm run clean`: Wipes out the distribution folder
 * `npm run build`: Perform a clean build
