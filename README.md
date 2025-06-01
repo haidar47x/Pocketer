@@ -3,11 +3,11 @@
 A user-friendly extension to manage your [Pocket](https://getpocket.com) bookmarks and read later items inside Google Chrome.
 
 <br>
-<p align="center"><img src=".github/screenshot.png" alt="Screenshot"></p>
+<p align="center"><img width="290" src=".github/screenshot.png" alt="Screenshot"></p>
 <br>
 
 <br>
-<p align="center"><a href="https://chromewebstore.google.com/detail/Pocketer/gkamgpflmkdbicikhmbdadddfmgeiill" target="_blank"><img src=".github/install.png" alt="Screenshot"></a></p>
+<p align="center"><a href="https://chromewebstore.google.com/detail/Pocketer/gkamgpflmkdbicikhmbdadddfmgeiill" target="_blank"><img width="130" src=".github/install.png" alt="Install Extension"></a></p>
 <br>
 
 ### Development
